@@ -9,6 +9,7 @@ public class Student {
     private int id;
     private String name;
     private String city;
+    private Certificate certificate;
 
     public Student() {
     }
@@ -16,6 +17,14 @@ public class Student {
         this.id = id;
         this.name = name;
         this.city = city;
+    }
+
+    public Certificate getCertificate() {
+        return certificate;
+    }
+
+    public void setCertificate(Certificate certificate) {
+        this.certificate = certificate;
     }
 
     public int getId() {
